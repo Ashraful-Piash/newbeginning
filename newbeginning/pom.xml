@@ -11,7 +11,7 @@
 	<groupId>com.piashraful</groupId>
 	<artifactId>newbeginning</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>newbeginning</name>
+	<name>spring-boot-learning</name>
 	<description>Learning spring boot </description>
 	<url/>
 	<licenses>

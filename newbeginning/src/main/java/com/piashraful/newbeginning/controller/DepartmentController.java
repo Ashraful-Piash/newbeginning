@@ -60,6 +60,13 @@ public class DepartmentController {
         return departmentService.fetchByDepartmentName(departmentName);
     }
 
+    @GetMapping("/department/code/{code}")
+    public Department fetchDepartmentByCode(@PathVariable("code") String departmentCode) {
+        return departmentService.fetchDepartmentByCode(departmentCode);
+    }
+
+
+
 
 }
 
